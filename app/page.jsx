@@ -18,7 +18,7 @@ export default function Home() {
             className="text-center xl:text-left text-[#eee9df] order-2 xl:order-none"
           >
             <h1 className="text-5xl xl:text-8xl font-bold mb-2">
-              Hello, I'm
+              Hello&#44; I&#39;m
               <br />
               <span className="text-[#a35139]">Kanidtha</span>
             </h1>
