@@ -27,7 +27,7 @@ const my_projects = {
       tech: ["React.js", "Next.js", "TypeScript", "TailwindCSS"],
       description: [
         "This project is an online e-commerce platform using Next.js and React.js with TypeScript.",
-        "Implemented responsive design with Tailwind CSS, ensuring an optimized shopping experience across devices.",
+        "Responsive design with Tailwind CSS, ensuring an optimized shopping experience across devices.",
         "Other tools: Framer Motion, Shadcn UI and React Toastify",
       ],
       github: "https://github.com/kanidthafah/hawaii-shark-store.git",
@@ -71,12 +71,12 @@ const my_projects = {
       tech: ["React.js", "Next.js", "TailwindCSS"],
       description: [
         "This project is a Portfolio Website using React.js and Next.js, showcasing information about me, projects and skills",
-        "Styled with Tailwind CSS for a modern, responsive design and animated elements with Framer Motion.",
+        "Styled the website with Tailwind CSS to responsive design.",
         "Other tools: Framer Motion, Shadcn UI, SweetAlert2",
       ],
-      github: "",
-      link: "",
-      image: "",
+      github: "https://github.com/kanidthafah/kanidtha-portfolio.git",
+      link: "https://kanidtha-portfolio.vercel.app/",
+      image: "/assets/project-image/portfolio-website-page.png",
     },
   ],
 };

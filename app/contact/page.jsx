@@ -76,13 +76,13 @@ const Contact = () => {
             className="xl:w-[54%] order-2 xl:order-none"
           >
             <form
-              className="flex flex-col gap-6 p-6 md:p-10 bg-[#2c3b4d] rounded-xl"
+              className="flex flex-col gap-3 md:gap-6 p-6 md:p-10 bg-[#2c3b4d] rounded-xl"
               onSubmit={handleSubmit}
             >
-              <h3 className="text-center font-semibold text-2xl xl:text-3xl text-[#ffb162]">
+              <h3 className="text-center font-semibold text-xl md:text-2xl lg:text-3xl text-[#ffb162]">
                 Contact me
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                 <Input
                   name="firstname"
                   type="text"
@@ -116,18 +116,20 @@ const Contact = () => {
             }}
             className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0"
           >
-            <ul className="flex flex-col gap-6">
+            <ul className="flex flex-col gap-3 md:gap-6">
               {info.map((item, index) => {
                 return (
-                  <li key={index} className="flex items-center gap-6">
+                  <li key={index} className="flex items-center gap-3 md:gap-6">
                     <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#2c3b4d] rounded-full flex items-center justify-center">
-                      <div className="text-[28px] text-[#ffb162]">
+                      <div className="text-lg md:text-[28px] text-[#ffb162]">
                         {item.icon}
                       </div>
                     </div>
-                    <div className="flex-1">
+                    <div className="flex-1 text-sm md:text-base lg:text-lg">
                       <p className="text-[#c9c1b1]">{item.title}</p>
-                      <p className="text-lg">{item.description}</p>
+                      <p>
+                        {item.description}
+                      </p>
                     </div>
                   </li>
                 );

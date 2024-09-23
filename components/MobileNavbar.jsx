@@ -36,7 +36,7 @@ const MobileNavbar = () => {
     <>
       <Sheet>
         <SheetTrigger className="flex justify-center items-center">
-          <FaBars className="text-3xl text-[#eee9df] hover:text-[#ffb162]" />
+          <FaBars className="text-xl md:text-2xl text-[#eee9df] hover:text-[#ffb162]" />
         </SheetTrigger>
         <SheetContent>
           <SheetHeader>

@@ -25,7 +25,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "My name is Kanidtha. After I graduated from Chiang Mai University with a Bachelor of Science in Modern Management and Information Technology. I have enhanced my skills in Front End development through various online courses. I have also worked as a Front End Developer (Freelance Outsource) at Aquila Studio Company for 3 months.",
+    "My name is Kanidtha. After I graduated from Chiang Mai University with a Bachelor of Science in Modern Management and Information Technology. I have enhanced my skills in Front End development through various online courses. I have also worked as a Front End Developer (Freelance Outsource) at Aquila Studio Company for three months.",
   info: [
     { fieldName: "Full Name", fieldValue: "Kanidtha Khamngam" },
     { fieldName: "Date of Birth", fieldValue: "January 14, 2000" },

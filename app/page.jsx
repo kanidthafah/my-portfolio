@@ -41,7 +41,11 @@ export default function Home() {
               &#10088;Freelance Outsource&#10089; for three months.
             </p>
             <Button>
-              <a href="/ddd" download className="text-md">
+              <a
+                href="/assets/file/Kanidtha CV.pdf"
+                download
+                className="text-md"
+              >
                 Download CV
               </a>
             </Button>
