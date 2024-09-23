@@ -17,12 +17,12 @@ export default function Home() {
             }}
             className="text-center xl:text-left text-[#eee9df] order-2 xl:order-none"
           >
-            <h1 className="text-5xl xl:text-8xl font-bold mb-2">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold mb-2">
               Hello&#44; I&#39;m
               <br />
               <span className="text-[#a35139]">Kanidtha</span>
             </h1>
-            <h3 className="text-2xl font-medium mb-6">
+            <h3 className="text-xl md:text-2xl font-medium mb-6">
               <Typewriter
                 words={["Front-End Developer"]}
                 loop={5}
@@ -33,7 +33,7 @@ export default function Home() {
                 delaySpeed={1000}
               />
             </h3>
-            <p className="max-w-[500px] text-md font-light xl:text-base mb-8">
+            <p className="max-w-[500px] text-sm md:text-base font-light xl:text-base mb-8">
               After I graduated from Chiang Mai University with a Bachelor of
               Science in Modern Management and Information Technology. I have
               enhanced my skills in Front End development through various online
