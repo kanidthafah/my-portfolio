@@ -17,7 +17,6 @@ import {
 } from "@/components/ui/card";
 import Link from "next/link";
 import { TbBrandGithubFilled } from "react-icons/tb";
-import { IoMdBrowsers } from "react-icons/io";
 import React from "react";
 
 const my_projects = {
@@ -59,7 +58,7 @@ const my_projects = {
       name: "Weather Website",
       tech: ["HTML", "CSS", "JavaScript"],
       description: [
-        "This projects is a Weather API Website for display real-time weather information such as temperature, humidity, wind speed, etc.",
+        "This projects is a Weather API Website to display real-time weather information such as temperature, humidity, wind speed, etc.",
         "Using OpenWeatherMap API to fetch weather data based on user-input city queries.",
         "Handled API responses effectively, displaying error messages for invalid queries or unavailable data.",
       ],
@@ -70,7 +69,11 @@ const my_projects = {
     {
       name: "Portfolio Website",
       tech: ["React.js", "Next.js", "TailwindCSS"],
-      description: [""],
+      description: [
+        "This project is a Portfolio Website using React.js and Next.js, showcasing information about me, projects and skills",
+        "Styled with Tailwind CSS for a modern, responsive design and animated elements with Framer Motion.",
+        "Other tools: Framer Motion, Shadcn UI, SweetAlert2",
+      ],
       github: "",
       link: "",
       image: "",
@@ -166,7 +169,7 @@ const Projects = () => {
             <CarouselPrevious />
             <CarouselNext />
           </Carousel>
-          <div className="py-2 text-center text-sm text-[#eee9df] font-medium">
+          <div className="py-2 text-center text-sm text-[#c9c1b1] font-medium">
             {current} of {count}
           </div>
         </motion.div>

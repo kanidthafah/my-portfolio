@@ -37,8 +37,8 @@ export default function Home() {
               After I graduated from Chiang Mai University with a Bachelor of
               Science in Modern Management and Information Technology. I have
               enhanced my skills in Front End development through various online
-              courses. I have also worked as a Front End Developer (Freelance
-              Outsource) for 3 months.
+              courses. I have also worked as a Front End Developer
+              &#10088;Freelance Outsource&#10089; for three months.
             </p>
             <Button>
               <a href="/ddd" download className="text-md">
