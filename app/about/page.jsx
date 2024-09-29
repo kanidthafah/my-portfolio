@@ -47,7 +47,7 @@ const experience = {
       type: "Freelance Outsource",
       duration: "March 2024 - May 2024",
       details: [
-        "Transform Figma design into Front-end code with React.js, Next.js, TypeScript and TailwindCSS.",
+        "Developing and implementing UI components using Next.js, React.js with TypeScript and TailwindCSS",
         "Work with Back-end developers to integrate UI components with APIs and databases.",
         "Debug errors and troubleshoot issues.",
       ],
@@ -73,7 +73,7 @@ const education = {
   items: [
     {
       institution: "Chiang Mai University",
-      degree: "Bachelor of Science",
+      degree: "Bachelor's degree",
       duration: "2019-2023",
       faculty: "College of Arts, Media and Technology",
       about: "Modern Management and Information Technology",

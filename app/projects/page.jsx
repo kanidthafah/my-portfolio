@@ -27,8 +27,8 @@ const my_projects = {
       tech: ["React.js", "Next.js", "TypeScript", "TailwindCSS"],
       description: [
         "This project is an online e-commerce platform using Next.js and React.js with TypeScript.",
-        "Responsive design with Tailwind CSS, ensuring an optimized shopping experience across devices.",
-        "Other tools: Framer Motion, Shadcn UI and React Toastify",
+        "Responsive design with Tailwind CSS, ensuring an optimized shopping experience across devices",
+        "Other tools/Libraries: Framer Motion, Shadcn UI and React Toastify",
       ],
       github: "https://github.com/kanidthafah/hawaii-shark-store.git",
       link: "https://hawaii-shark-store.vercel.app/",
@@ -58,7 +58,7 @@ const my_projects = {
       name: "Weather Website",
       tech: ["HTML", "CSS", "JavaScript"],
       description: [
-        "This projects is a Weather API Website to display real-time weather information such as temperature, humidity, wind speed, etc.",
+        "This project is a Weather API Website to display real-time weather information such as temperature, humidity, wind speed, etc.",
         "Using OpenWeatherMap API to fetch weather data based on user-input city queries.",
         "Handled API responses effectively, displaying error messages for invalid queries or unavailable data.",
       ],
@@ -72,7 +72,7 @@ const my_projects = {
       description: [
         "This project is a Portfolio Website using React.js and Next.js, showcasing information about me, projects and skills",
         "Styled the website with Tailwind CSS to responsive design.",
-        "Other tools: Framer Motion, Shadcn UI, SweetAlert2",
+        "Other tools/Libraries: Framer Motion, Shadcn UI and SweetAlert2.",
       ],
       github: "https://github.com/kanidthafah/kanidtha-portfolio.git",
       link: "https://kanidtha-portfolio.vercel.app/",
