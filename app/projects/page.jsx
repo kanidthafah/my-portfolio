@@ -74,7 +74,7 @@ const my_projects = {
         "Styled the website with Tailwind CSS to responsive design.",
         "Other tools/Libraries: Framer Motion, Shadcn UI and SweetAlert2.",
       ],
-      github: "https://github.com/kanidthafah/kanidtha-portfolio.git",
+      github: "https://github.com/kanidthafah/my-portfolio.git",
       link: "https://kanidtha-portfolio.vercel.app/",
       image: "/assets/project-image/portfolio-website-page.png",
     },
